@@ -1,0 +1,52 @@
+.navbar {
+    background: #000;
+    color: white;
+    min-height: 160px;
+    width: 100%;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img-bull {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.img-bull img {
+    width: 140px;
+    object-fit: cover;
+    margin-top: 10px;
+    margin-bottom: 14px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-links ul {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-links ul li {
+    list-style: none;
+    margin: 0 10px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.3rem;
+    color: #adadad;
+    letter-spacing: 6px;
+    cursor: pointer;
+    margin-top: 5px;
+    transition: all 0.2s ease-in-out;
+}
+/* Hover */
+.nav-links ul li:hover {
+    color: #FF5A18;
+    border-bottom: #FF5A18 2px solid;
+}
