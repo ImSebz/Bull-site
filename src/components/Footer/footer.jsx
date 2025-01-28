@@ -1,4 +1,11 @@
 import React from 'react'
+import habeasData from '../../assets/legal/habeas-data.pdf';
+import politicaAmbiental from '../../assets/legal/politica-ambiental.pdf';
+import politicaCalidad from '../../assets/legal/politica-calidad.pdf';
+import politicaAlcoholDrogas from '../../assets/legal/politica-alcohol-drogas.pdf';
+import politicaTratamientoDatos from '../../assets/legal/politica-tratamiento-datos.pdf';
+import politicaAntiCorrupcion from '../../assets/legal/politica-anticorrupcion-soborno.pdf';
+import politicaCodigoEtica from '../../assets/legal/politica-codigo-etica-conducta.pdf';
 import './footer.css';
 
 const Footer = () => {
@@ -21,13 +28,13 @@ const Footer = () => {
                 <div className='footer-politicas'>
                     <h1>POLÍTICAS AGENCIA BULL MARKETING</h1>
                     <ul>
-                        <li>Habeas Data</li>
-                        <li>Política ambiental</li>
-                        <li>Política de calidad</li>
-                        <li>Polítca de alcohol y drogas</li>
-                        <li>Política de tratamiento de datos</li>
-                        <li>Política anticorrupción y soborno</li>
-                        <li>Política código de ética y conducta</li>
+                        <li><a href={habeasData} target='_blank'>Habeas Data</a></li>
+                        <li><a href={politicaAmbiental} target='_blank'>Política ambiental</a></li>
+                        <li><a href={politicaCalidad} target='_blank'></a>Política de calidad</li>
+                        <li><a href={politicaAlcoholDrogas} target="_blank">Polítca de alcohol y drogas</a></li>
+                        <li><a href={politicaTratamientoDatos} target="_blank">Política de tratamiento de datos</a></li>
+                        <li><a href={politicaAntiCorrupcion} target='_blank'>Política anticorrupción y soborno</a></li>
+                        <li><a href={politicaCodigoEtica} target="_blank">Política código de ética y conducta</a></li>
                     </ul>
                 </div>
                 <div className='footer-acerca'>
